@@ -1,5 +1,5 @@
 package models;
 
-public class Circulo {
+public class Circulo extends Forma {
 
 }

@@ -1,5 +1,5 @@
 package models;
 
-public class Retangulo {
+public class Retangulo extends Forma {
 
 }
