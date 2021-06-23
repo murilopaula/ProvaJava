@@ -2,7 +2,7 @@ package view;
 
 import java.util.Scanner;
 
-import controllers.Util;
+import controllers.Helpers;
 
 public class Principal {
 
@@ -23,7 +23,7 @@ public class Principal {
 			System.out.println("7 – Listar Circulo");
 			System.out.println("0 – Sair");
 
-			opcao = Util.lerInteiro("\nDigite a opção: ");
+			opcao = Helpers.lerInteiro("\nDigite a opção: ");
 
 			switch (opcao) {
 

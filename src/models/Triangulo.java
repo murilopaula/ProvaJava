@@ -1,6 +1,12 @@
 package models;
 
 public class Triangulo extends Forma {
+	
+	
+
+	public Triangulo() {
+		setTipoForma("Triângulo");
+	}
 
 	private int alturaTriangulo;
 	private int baseTriangulo;

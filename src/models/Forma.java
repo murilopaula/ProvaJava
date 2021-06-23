@@ -20,5 +20,12 @@ public abstract class Forma {
 	public void setTipoForma(String tipoForma) {
 		this.tipoForma = tipoForma;
 	}
+
+	@Override
+	public String toString() {
+		return  "Tipo da forma: " + getTipoForma() + "\nArea: " + getCalcularArea();
+	}
+	
+	
 	
 }
