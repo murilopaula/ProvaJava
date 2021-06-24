@@ -24,9 +24,4 @@ public class Triangulo extends Forma {
 		this.baseTriangulo = baseTriangulo;
 	}
 	
-	@Override
-	public String toString() {
-		return super.toString();
-	}
-	
 }

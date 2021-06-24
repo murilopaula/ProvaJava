@@ -26,6 +26,4 @@ public abstract class Forma {
 		return  "Tipo da forma: " + getTipoForma() + "\nArea: " + getCalcularArea();
 	}
 	
-	
-	
 }
